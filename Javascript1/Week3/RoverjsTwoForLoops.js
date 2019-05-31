@@ -1,4 +1,5 @@
-﻿for (let i = 0; i < 4; i++) {
+
+for (let i = 0; i < 4; i++) {
   move();
 }
 turn('right');
