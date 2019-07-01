@@ -1,0 +1,21 @@
+The Assignment completed at:
+https://github.com/AaaaT/animals
+
+
+
+Step 2: Git homework
+Deadline Wednesday
+
+Git homework for this week:
+
+Pair up with another student in your class. The homework requires two people to work together. Let's call them admin and user.
+
+admin creates a new repository on github called animals.
+admin adds a file called “zoo.txt” with some animals generally found in a zoo.
+admin commits and pushes the changes (in master branch).
+user forks the repository created by admin and bring it to their machine (covered during classwork).
+user makes a new branch called user-dev.
+user adds another file called “pets.txt” with some animals generally found in a home.
+user commits and pushes his branch to remote.
+user creates a pull request(PR) to merge changes from user's user-dev branch to admin's master branch.
+admin reviews the pull request and approves and merges changes.
