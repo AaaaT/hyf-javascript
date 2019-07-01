@@ -11,3 +11,5 @@
   alert(hello); // Hello world!
   alert(message); // Hello world!
 </script>
+
+//source: http://javascript.info/variables#a-real-life-analogy
