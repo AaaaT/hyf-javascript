@@ -1,0 +1,38 @@
+> myArr[0]
+ReferenceError: myArr is not defined
+> myArr [1]
+ReferenceError: myArr is not defined
+>
+> []
+[]
+> myArr = []
+[]
+> myArr.push(1)
+1
+> myArr.push(2)
+2
+> myArr.push(3)
+3
+> myArr.push(4)
+4
+> myArr
+[ 1, 2, 3, 4 ]
+> myArr[10] = 11
+11
+> myArr
+[ 1, 2, 3, 4, <6 empty items>, 11 ]
+> myArr[1000] = 100
+100
+> myArr
+[ 1, 2, 3, 4, <6 empty items>, 11, <989 empty items>, 100 ]
+> b = { }
+{}
+> typeof b
+'object'
+> b.name = 'Christer'
+'Christer'
+> b
+{ name: 'Christer' }
+> b.lenght
+undefined
+> VALUE_OF_PI = 3.1424657789VALUE_OF_PI = 3.1424657789VALUE_OF_PI = 3.1424657789
