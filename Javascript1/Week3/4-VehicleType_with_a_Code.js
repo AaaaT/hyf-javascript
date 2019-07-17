@@ -8,10 +8,10 @@
 
 function vehicleType(color, code){
     let type; 
-    if (code == 1){
+    if (code === 1){
         type = "car"
     }; 
-    if (code == 2){
+    if (code === 2){
         type = "motorbike"
     };
  
