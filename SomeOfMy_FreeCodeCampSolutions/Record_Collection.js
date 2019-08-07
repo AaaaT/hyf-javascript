@@ -1,3 +1,20 @@
+/*The Task: Write a function which takes an album's id (like 2548), a property prop (like "artist" or "tracks"), 
+and a value (like "Addicted to Love") to modify the data in this collection.
+
+-If prop isn't "tracks" and value isn't empty (""), update or set the value for that record album's property.
+
+-Your function must always return the entire collection object.
+
+There are several rules for handling incomplete data:
+
+If prop is "tracks" but the album doesn't have a "tracks" property, create an empty array before adding 
+the new value to the album's corresponding property.
+
+-If prop is "tracks" and value isn't empty (""), push the value onto the end of the album's existing tracks array.
+
+-If value is empty (""), delete the given prop property from the album.*/
+
+
 // Setup
 let collection = {
     "2548": {
@@ -29,7 +46,18 @@ let collectionCopy = JSON.parse(JSON.stringify(collection));
 
 // Only change code below this line
 function updateRecords(id, prop, value) {
-  
+  if (prop !==tracks && value !== ("")){
+  return value
+  };
+  if (prop === tracks && tracks === false){
+      //create an empty array!
+  };
+  if (prop ===tracks && value !== ("")){
+      collection[id][prop].push(value);
+      if (value === ("")){
+          delete collection[id][prop];
+      }
+  }
   
   return collection;
 }
