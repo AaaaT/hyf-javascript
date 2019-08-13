@@ -5,3 +5,5 @@ let myArray = [];
 for (let n = 1; n<=5; n++ ){
     myArray.push(n);
 }
+
+//returns [1,2,3,4,5]
