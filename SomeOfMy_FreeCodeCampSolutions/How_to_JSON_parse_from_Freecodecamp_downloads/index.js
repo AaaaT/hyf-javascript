@@ -9,7 +9,7 @@ console.log(Object['index.js']);
 
 // Setup
 let myArray = [];
-var i = 10;
+let i = 10;
 
 // Only change code below this line.
 do {
