@@ -1,6 +1,6 @@
 
 I have solved an exercise on FreeCodeCamp and downloaded the solution, that comes in json format.
-Then I wanted to edit it and did not know how to convert it back to Javascript format. 
+Then I wanted to edit it and did not know how to convert it back to Javascript. 
 After some trial and error, I found the solution:
 
 -In index.js I am parsing the json to be able to edit it in Javascript again (in Visual Studio Code).
